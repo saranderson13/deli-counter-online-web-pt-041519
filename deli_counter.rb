@@ -16,6 +16,6 @@ def take_a_number(line_array, new_customer)
 end
 
 
-def now_serving
+def now_serving(deli)
   
 end
