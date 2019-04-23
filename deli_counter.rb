@@ -17,6 +17,6 @@ def take_a_number(line_array, new_customer)
 end
 
 
-def now_serving(deli)
-  
+def now_serving(line_array)
+  puts line_array.length == 0 ? "There is nobody waiting to be served!" : line_array
 end
