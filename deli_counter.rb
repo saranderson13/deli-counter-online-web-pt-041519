@@ -12,7 +12,7 @@ end
 
 
 def take_a_number(line_array, new_customer)
-  
+  line_array << new_customer
 end
 
 
