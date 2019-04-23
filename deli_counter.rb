@@ -6,7 +6,6 @@ def line(line_array)
     line_array.each.with_index do |customer, index|
       line << " #{index + 1}. #{customer}"
     end
-    binding.pry
     line
   else 
     "The line is currently empty."
