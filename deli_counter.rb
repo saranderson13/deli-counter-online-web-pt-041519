@@ -1,5 +1,5 @@
 def line(line_array)
-  puts line_array.length > 0 ? true : "The line is currently empty."
+  puts line_array.length > 0 ? "#{line_array} : "The line is currently empty."
 end
 
 
