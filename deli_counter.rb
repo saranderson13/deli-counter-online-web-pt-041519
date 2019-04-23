@@ -1,5 +1,3 @@
-require 'pry'
-
 def line(line_array)
   if line_array.length > 0
     line = "The line is currently:"
