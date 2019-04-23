@@ -12,9 +12,7 @@ end
 
 
 def take_a_number(line_array, new_customer)
-  binding.pry
   line_array << new_customer
-  binding.pry
 end
 
 
